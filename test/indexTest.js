@@ -9,8 +9,8 @@ describe('index.js', () => {
   });
 
   describe('welcomeMessage', () => {
-    it('contains "Welcome to Flatbook, "', () => {
-      expect(welcomeMessage).to.have.string('Welcome to Flatbook, ');
+    it('contains "Welcome to Klossybook, "', () => {
+      expect(welcomeMessage).to.have.string('Welcome to Klossybook, ');
     });
 
     it("contains the value of the 'currentUser' variable", () => {
@@ -23,8 +23,8 @@ describe('index.js', () => {
   });
 
   describe('excitedWelcomeMessage', () => {
-    it('contains "WELCOME TO FLATBOOK, "', () => {
-      expect(excitedWelcomeMessage).to.have.string('WELCOME TO FLATBOOK, ');
+    it('contains "WELCOME TO KLOSSYBOOK, "', () => {
+      expect(excitedWelcomeMessage).to.have.string('WELCOME TO KLOSSYBOOK, ');
     });
 
     it("contains the value of the 'currentUser' variable", () => {
