@@ -2,3 +2,4 @@
 let currentUser = 'Will';
 let welcomeMessage = ("Welcome to Klossybook, " + currentUser + "!");
 let excitedWelcomeMessage = welcomeMessage.toUpperCase()
+let shortGreeting = ("Welcome, " + currentUser[0] + "!")
